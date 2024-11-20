@@ -1,0 +1,33 @@
+/* Header Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffcc00;
+}
+
+.navbar .nav-link {
+  color: #ddd;
+  text-transform: capitalize;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ffcc00;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28%255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

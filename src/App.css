@@ -1,0 +1,25 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .news-card {
+      margin-bottom: 20px;
+    }
+  
+    .text-center {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .news-card .card-title {
+      font-size: 1rem;
+    }
+  
+    .news-card .card-text {
+      font-size: 0.875rem;
+    }
+  }
+  
